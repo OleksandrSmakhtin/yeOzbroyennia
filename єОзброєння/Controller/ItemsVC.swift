@@ -1,0 +1,65 @@
+//
+//  ItemsVC.swift
+//  єОзброєння
+//
+//  Created by Oleksandr Smakhtin on 23.08.2022.
+//
+
+import UIKit
+
+class ItemsVC: UIViewController {
+
+    
+    
+    @IBOutlet weak var itemsTable: UITableView!
+    
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        itemsTable.delegate = self
+        itemsTable.dataSource = self
+    }
+    
+    let itemsData = ItemsData()
+    var items = [String]()
+    
+    func initData(subcategory: String) {
+        
+        items = itemsData.getItems(subcategory: subcategory)
+        
+    }
+    
+
+
+}
+
+
+
+extension ItemsVC: UITableViewDelegate, UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
+        if let cell = tableView.dequeueReusableCell(withIdentifier: "ItemsCell") as? ItemsCell {
+            let item = items[indexPath.row]
+            cell.updateView(item: item)
+            return cell
+        } else {
+        return UITableViewCell()
+        }
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let item = items[indexPath.row]
+        
+        performSegue(withIdentifier: "Item", sender: item)
+        
+    }
+    
+    
+}
