@@ -33,7 +33,7 @@ extension CategoryVC: UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "CategoryCell") as? CategoryCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: K.Cells.categoryCell) as? CategoryCell {
             cell.updateView(category: categoryData.categories[indexPath.row])
             
             return cell
@@ -54,7 +54,7 @@ extension CategoryVC: UITableViewDataSource, UITableViewDelegate {
 //            let subcategory = SubcategoryData().subcategories[indexPath.row].subcategory
 //            performSegue(withIdentifier: "Subcategory", sender: subcategory)
 //        }
-        performSegue(withIdentifier: "Subcategory", sender: category)
+        performSegue(withIdentifier: K.Segues.toSubcategory, sender: category)
         
     }
     

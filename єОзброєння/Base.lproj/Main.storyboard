@@ -277,7 +277,7 @@
                                         <rect key="frame" x="0.0" y="70" width="374" height="652"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Item" rowHeight="60" id="wUw-vl-RDB" customClass="ItemCell" customModule="єОзброєння" customModuleProvider="target">
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="60" id="wUw-vl-RDB" customClass="ItemCell" customModule="єОзброєння" customModuleProvider="target">
                                                 <rect key="frame" x="0.0" y="44.5" width="374" height="60"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wUw-vl-RDB" id="VcU-bQ-N3S">

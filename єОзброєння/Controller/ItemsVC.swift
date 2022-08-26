@@ -44,7 +44,7 @@ extension ItemsVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "ItemsCell") as? ItemsCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: K.Cells.itemsCell) as? ItemsCell {
             let item = items[indexPath.row]
             cell.updateView(item: item)
             return cell
@@ -57,7 +57,7 @@ extension ItemsVC: UITableViewDelegate, UITableViewDataSource {
         
         let item = items[indexPath.row]
         
-        performSegue(withIdentifier: "Item", sender: item)
+        performSegue(withIdentifier: K.Segues.toItem, sender: item)
         
     }
     

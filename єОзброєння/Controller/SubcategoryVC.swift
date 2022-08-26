@@ -45,7 +45,7 @@ extension SubcategoryVC: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        if let cell = tableView.dequeueReusableCell(withIdentifier: "SubcategoryCell") as? SubcategoryCell {
+        if let cell = tableView.dequeueReusableCell(withIdentifier: K.Cells.subcategoryCell) as? SubcategoryCell {
             
             let subcategory = subcategories[indexPath.row]
             //let subcatygory  = subcategoriesData[indexPath.row]
@@ -62,7 +62,7 @@ extension SubcategoryVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //let subcategory = subcategoriesData[indexPath.row]
         let subcategory = subcategories[indexPath.row]
-        performSegue(withIdentifier: "Items", sender: subcategory)
+        performSegue(withIdentifier: K.Segues.toItems, sender: subcategory)
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
