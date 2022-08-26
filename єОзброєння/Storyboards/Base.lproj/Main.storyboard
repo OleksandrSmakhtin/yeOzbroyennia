@@ -317,8 +317,8 @@
                                             </tableViewCell>
                                         </prototypes>
                                     </tableView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="god-v1-gDr">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="70"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="god-v1-gDr">
+                                        <rect key="frame" x="20" y="0.0" width="334" height="70"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="70" id="AHe-hj-IpA"/>
                                         </constraints>
@@ -329,11 +329,11 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.21853741496598639" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="god-v1-gDr" secondAttribute="trailing" id="DU1-UI-60l"/>
+                                    <constraint firstAttribute="trailing" secondItem="god-v1-gDr" secondAttribute="trailing" constant="20" id="DU1-UI-60l"/>
                                     <constraint firstItem="CSu-sY-NXl" firstAttribute="top" secondItem="god-v1-gDr" secondAttribute="bottom" id="Uf1-3o-bfk"/>
                                     <constraint firstItem="CSu-sY-NXl" firstAttribute="leading" secondItem="SsC-k0-hD5" secondAttribute="leading" id="Y1g-ge-klJ"/>
                                     <constraint firstAttribute="bottom" secondItem="CSu-sY-NXl" secondAttribute="bottom" id="gek-c8-LOa"/>
-                                    <constraint firstItem="god-v1-gDr" firstAttribute="leading" secondItem="SsC-k0-hD5" secondAttribute="leading" id="mD3-fI-Dr8"/>
+                                    <constraint firstItem="god-v1-gDr" firstAttribute="leading" secondItem="SsC-k0-hD5" secondAttribute="leading" constant="20" id="mD3-fI-Dr8"/>
                                     <constraint firstItem="god-v1-gDr" firstAttribute="top" secondItem="SsC-k0-hD5" secondAttribute="top" id="mbg-wx-y6d"/>
                                     <constraint firstAttribute="trailing" secondItem="CSu-sY-NXl" secondAttribute="trailing" id="yne-c2-zg5"/>
                                 </constraints>
@@ -354,6 +354,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="GCo-6g-kiM"/>
                     <connections>
+                        <outlet property="itemLbl" destination="god-v1-gDr" id="t46-zh-niv"/>
                         <outlet property="itemTable" destination="CSu-sY-NXl" id="e9X-d2-esq"/>
                     </connections>
                 </viewController>

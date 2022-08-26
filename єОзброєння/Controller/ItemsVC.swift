@@ -57,8 +57,23 @@ extension ItemsVC: UITableViewDelegate, UITableViewDataSource {
         
         let item = items[indexPath.row]
         
+        
+
+        
         performSegue(withIdentifier: K.Segues.toItem, sender: item)
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if let itemVC = segue.destination as? ItemVC {
+            
+            let backItem = UIBarButtonItem()
+            backItem.title = ""
+            navigationItem.backBarButtonItem = backItem
+            
+            itemVC.initData(itemName: sender as! String)
+        }
     }
     
     
