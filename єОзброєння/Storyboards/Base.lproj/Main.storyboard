@@ -273,53 +273,46 @@
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SsC-k0-hD5" customClass="CustomCellView" customModule="єОзброєння" customModuleProvider="target">
                                 <rect key="frame" x="20" y="140" width="374" height="722"/>
                                 <subviews>
-                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CSu-sY-NXl">
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="CSu-sY-NXl">
                                         <rect key="frame" x="0.0" y="70" width="374" height="652"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <prototypes>
-                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="60" id="wUw-vl-RDB" customClass="ItemCell" customModule="єОзброєння" customModuleProvider="target">
-                                                <rect key="frame" x="0.0" y="44.5" width="374" height="60"/>
+                                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ItemCell" rowHeight="84" id="wUw-vl-RDB" customClass="ItemCell" customModule="єОзброєння" customModuleProvider="target">
+                                                <rect key="frame" x="0.0" y="44.5" width="374" height="84"/>
                                                 <autoresizingMask key="autoresizingMask"/>
                                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="wUw-vl-RDB" id="VcU-bQ-N3S">
-                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="60"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="374" height="84"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <subviews>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="alu-Pb-f8J">
-                                                            <rect key="frame" x="30" y="20" width="108.5" height="20"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="myX-fB-Ith">
+                                                            <rect key="frame" x="20" y="10" width="334" height="64"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Калібр" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z3G-ke-FBg">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="53" height="20"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Prop" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qRM-Ke-9tM">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="167" height="64"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="-" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m85-vy-fI7">
-                                                                    <rect key="frame" x="58" y="0.0" width="11" height="20"/>
-                                                                    <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                                                    <nil key="textColor"/>
-                                                                    <nil key="highlightedColor"/>
-                                                                </label>
-                                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5.45" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QCw-Nt-1qE">
-                                                                    <rect key="frame" x="74" y="0.0" width="34.5" height="20"/>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Value" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e7t-HU-1gu">
+                                                                    <rect key="frame" x="167" y="0.0" width="167" height="64"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" constant="20" id="GDf-oz-8Az"/>
-                                                            </constraints>
                                                         </stackView>
                                                     </subviews>
                                                     <constraints>
-                                                        <constraint firstItem="alu-Pb-f8J" firstAttribute="centerY" secondItem="VcU-bQ-N3S" secondAttribute="centerY" id="QWj-wV-Shq"/>
-                                                        <constraint firstItem="alu-Pb-f8J" firstAttribute="leading" secondItem="VcU-bQ-N3S" secondAttribute="leadingMargin" constant="10" id="mi7-5p-OS0"/>
+                                                        <constraint firstItem="myX-fB-Ith" firstAttribute="leading" secondItem="VcU-bQ-N3S" secondAttribute="leading" constant="20" id="8qd-b6-hrn"/>
+                                                        <constraint firstAttribute="bottom" secondItem="myX-fB-Ith" secondAttribute="bottom" constant="10" id="92c-63-rao"/>
+                                                        <constraint firstItem="myX-fB-Ith" firstAttribute="top" secondItem="VcU-bQ-N3S" secondAttribute="top" constant="10" id="ZiY-Wl-xpF"/>
+                                                        <constraint firstAttribute="trailing" secondItem="myX-fB-Ith" secondAttribute="trailing" constant="20" id="d8g-Wm-CTM"/>
                                                     </constraints>
                                                 </tableViewCellContentView>
                                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <connections>
-                                                    <outlet property="propertieLbl" destination="z3G-ke-FBg" id="284-2f-HNH"/>
-                                                    <outlet property="valueLbl" destination="QCw-Nt-1qE" id="Mml-b8-f8f"/>
+                                                    <outlet property="propertieLbl" destination="qRM-Ke-9tM" id="LeA-u3-tmf"/>
+                                                    <outlet property="valueLbl" destination="e7t-HU-1gu" id="BHk-Ds-McS"/>
                                                 </connections>
                                             </tableViewCell>
                                         </prototypes>
