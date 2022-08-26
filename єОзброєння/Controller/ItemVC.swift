@@ -29,13 +29,13 @@ class ItemVC: UIViewController {
 
 extension ItemVC: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return array[11].property.count
+        return array[13].property.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: K.Cells.itemCell) as? ItemCell {
             
-            let properties = array[11].property
+            let properties = array[13].property
             let property = properties[indexPath.row]
             
             cell.updateView(property: property)

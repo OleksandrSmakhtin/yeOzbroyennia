@@ -90,6 +90,7 @@
 		443ED42C28B3FE140087A6CB /* єОзброєння */ = {
 			isa = PBXGroup;
 			children = (
+				443ED43B28B3FE150087A6CB /* Info.plist */,
 				44A686E628B927DE00DB9A27 /* Delegates */,
 				44A686DC28B8EC1100DB9A27 /* Constants */,
 				443ED44328B405FE0087A6CB /* Model */,
@@ -168,7 +169,6 @@
 		44A686E528B927B400DB9A27 /* Config */ = {
 			isa = PBXGroup;
 			children = (
-				443ED43B28B3FE150087A6CB /* Info.plist */,
 			);
 			path = Config;
 			sourceTree = "<group>";
