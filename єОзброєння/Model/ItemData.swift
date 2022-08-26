@@ -127,7 +127,7 @@ struct ItemData {
                                                   Property(name: "Прицільна дальність, м.", value: "25"),
                                                   Property(name: "Нарізи", value: "6")]),
         
-        ItemModel(item: "Помпова рушниця «Форт-500»", property: [Property(name: "Модифікації", value: "АС/МС/М1С/ТС"),
+        ItemModel(item: "Помпова гладкоствольна рушниця «Форт-500»", property: [Property(name: "Модифікації", value: "АС/МС/М1С/ТС"),
                                                   Property(name: "Калібр", value: "12/76-мм"),
                                                   Property(name: "Принцип дії", value: "ручна перезарядка"),
                                                   Property(name: "Довж. з прикладом, см.", value: "101/87/84/104"),
@@ -470,7 +470,7 @@ struct ItemData {
                                                   Property(name: "Габаритні розміри , мм", value: "110/68/64"),
                                                   Property(name: "Маса, кг", value: "0,28")]),
         
-        ItemModel(item: "Приціл коліматорний кулеметний ПКП-12,7", property: [Property(name: "", value: ""),
+        ItemModel(item: "Приціл коліматорний кулеметний ПКП-12,7", property: [
                                                   Property(name: "Збільшення, крат", value: "1х"),
                                                   Property(name: "Відстані прицілювання м", value: "200,400,600,800,1200"),
                                                   Property(name: "Маса приладу,не більше, кг", value: "5")]),

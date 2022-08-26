@@ -12,7 +12,9 @@ class ItemVC: UIViewController {
     
     @IBOutlet weak var itemTable: UITableView!
     
+
     @IBOutlet weak var itemLbl: UILabel!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
