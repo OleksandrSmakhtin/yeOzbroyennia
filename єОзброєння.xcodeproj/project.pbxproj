@@ -98,7 +98,6 @@
 				443ED44128B405E40087A6CB /* Controller */,
 				44A686E428B9276700DB9A27 /* Storyboards */,
 				44A686E328B9274200DB9A27 /* Resources */,
-				44A686E528B927B400DB9A27 /* Config */,
 			);
 			path = "єОзброєння";
 			sourceTree = "<group>";
@@ -164,13 +163,6 @@
 				443ED43828B3FE150087A6CB /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
-			sourceTree = "<group>";
-		};
-		44A686E528B927B400DB9A27 /* Config */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Config;
 			sourceTree = "<group>";
 		};
 		44A686E628B927DE00DB9A27 /* Delegates */ = {
