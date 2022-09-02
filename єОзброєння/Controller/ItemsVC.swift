@@ -73,6 +73,7 @@ extension ItemsVC: UITableViewDelegate, UITableViewDataSource {
             navigationItem.backBarButtonItem = backItem
             
             itemVC.initData(itemName: sender as! String)
+            print("data sent so itemVC")
         }
     }
     
