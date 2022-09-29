@@ -8,7 +8,7 @@
 import Foundation
 
 struct SubcategoryModel {
-    
+    // sub
     let category: String
     let subcategory: [String]
     
