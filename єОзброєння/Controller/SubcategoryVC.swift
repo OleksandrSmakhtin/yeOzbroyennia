@@ -57,7 +57,7 @@ extension SubcategoryVC: UITableViewDelegate, UITableViewDataSource {
         }
         
     }
-    
+    // test
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         //let subcategory = subcategoriesData[indexPath.row]
