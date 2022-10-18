@@ -92,10 +92,11 @@
 			children = (
 				443ED43B28B3FE150087A6CB /* Info.plist */,
 				44A686E628B927DE00DB9A27 /* Delegates */,
-				44A686DC28B8EC1100DB9A27 /* Constants */,
+				44560FC428FDCC630046977F /* Data */,
 				443ED44328B405FE0087A6CB /* Model */,
 				443ED44228B405F20087A6CB /* View */,
 				443ED44128B405E40087A6CB /* Controller */,
+				44A686DC28B8EC1100DB9A27 /* Constants */,
 				44A686E428B9276700DB9A27 /* Storyboards */,
 				44A686E328B9274200DB9A27 /* Resources */,
 			);
@@ -129,15 +130,22 @@
 		443ED44328B405FE0087A6CB /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				443ED44428B406720087A6CB /* CategoryData.swift */,
-				443ED45028B434D70087A6CB /* SubcategoryData.swift */,
 				443ED45228B438D60087A6CB /* SubcategoryModel.swift */,
-				443ED45628B44C880087A6CB /* ItemsData.swift */,
 				443ED45828B451FC0087A6CB /* ItemsModel.swift */,
-				44BC653228B51167009DA461 /* ItemData.swift */,
 				44BC653028B50D71009DA461 /* ItemModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		44560FC428FDCC630046977F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				443ED44428B406720087A6CB /* CategoryData.swift */,
+				443ED45028B434D70087A6CB /* SubcategoryData.swift */,
+				443ED45628B44C880087A6CB /* ItemsData.swift */,
+				44BC653228B51167009DA461 /* ItemData.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 		44A686DC28B8EC1100DB9A27 /* Constants */ = {

@@ -11,7 +11,7 @@ import Foundation
 struct CategoryData {
     
     let categories = [
-        "Озброєння",
+        "Стрілецька зброя",
         "Артилерійське озброєння",
         "Техніка",
         "Системи зв'язку",
