@@ -7,7 +7,6 @@
 
 import Foundation
 
-
 struct CategoryData {
     
     let categories = [
@@ -21,11 +20,5 @@ struct CategoryData {
         "Морське озброєння",
         "Оптичні прилади",
         "Системи захисту"
-        
     ]
-    
-   
-    
-    
-    
 }
