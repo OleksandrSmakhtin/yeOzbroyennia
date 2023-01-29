@@ -8,7 +8,8 @@
 import Foundation
 
 
-struct ItemModel {
+struct ItemModel: Hashable {
+    
     
     let item: String
     let property: [Property]
@@ -16,7 +17,7 @@ struct ItemModel {
     
 }
 
-struct Property {
+struct Property: Hashable {
     
     let name: String
     let value: String
