@@ -53,6 +53,7 @@ extension ItemVC: UITableViewDelegate, UITableViewDataSource {
             let property = itemProperties[indexPath.row]
             
             cell.updateView(property: property)
+            
             return cell
         } else {
             return UITableViewCell()
