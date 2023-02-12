@@ -57,6 +57,10 @@ struct SubcategoryData {
             "Повітряні сили",
             "Сухопутні війська"]),
         
+        SubcategoryModel(category: "Системи берегової оборони", subcategory: ["Берегові ракетні комплекси"]),
+        
+        SubcategoryModel(category: "Інженерна техніка", subcategory: ["БРЕМ", "Інші"]),
+        
         SubcategoryModel(category: "Ракетні комплекси", subcategory: ["Зенітні комплекси та озброєння",
                                                                       "Протикорабельні ракети"]),
         
