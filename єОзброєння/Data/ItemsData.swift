@@ -111,7 +111,7 @@ struct ItemsData {
     
     //MARK: - Автомобілі
     ItemsModel(subcategory: "Мотовсюдиходи та безпілотники", items: ["Елік Атом Мілітарі", "Delfast", "THeMIS", "UTV"]),
-    ItemsModel(subcategory: "Легкові автомобілі", items: ["VOLS", "Богдан-2251", "Богдан-2351", "Toyota Land Cruiser (J76)", "Ford Ranger", "HMMWV", "Land Rover Defender", "Snatch Land Rover"]),
+    ItemsModel(subcategory: "Легкові автомобілі", items: ["VOLS", "Богдан-2251", "Богдан-2351", "Toyota Land Cruiser (J76)", "Ford Ranger", "HMMWV", "Land Rover Defender"]),
     ItemsModel(subcategory: "Вантажні автомобілі", items: ["Renault Truck D13T", "Unimog", "MAN GL", "MAN HX", "Leyland DAF 45.150", "FMTV M1083", "Oshkosh M1070", "КрАЗ-5233", "КрАЗ-6322", "КрАЗ-6446", "КрАЗ-260", "КрАЗ-250", "КрАЗ-255Б", "КрАЗ-257", "МАЗ-6317", "МАЗ-5316", "МАЗ-4371N2", "МАЗ-537", "МАЗ-7410", "ГАЗ-66", "КАМАЗ 43114", "КАМАЗ 4310", "КАМАЗ 5320", "Урал-4320", "ЗІЛ-131", "ЗІЛ-135"]),
     ItemsModel(subcategory: "Трофейна техніка", items: ["Урал Федерал", "Торнадо-У", "ДТ-30 «Витязь»", "Урал-43206", "Урал-5323", "КамАЗ-4350", "КамАЗ 6x6", "КамАЗ-6350", "УАЗ-469", "УАЗ-452"]),
     
