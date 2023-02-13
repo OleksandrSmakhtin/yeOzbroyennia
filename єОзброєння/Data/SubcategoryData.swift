@@ -25,6 +25,10 @@ struct SubcategoryData {
             "Ручні гранати",
             "Міни"]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Бронетехніка", subcategory: [
             "Танки",
             "Бойові машини піхоти",
@@ -36,6 +40,10 @@ struct SubcategoryData {
             "Бронеавтомобілі та MRAP"
         ]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Артилерія", subcategory: [
             "Самохідні артилерійські установки",
             "Причіпні гармати і гаубиці",
@@ -45,29 +53,58 @@ struct SubcategoryData {
             "Протитанкові керовані ракети",
             "Тактичні ракетні комплекси"]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Системи зв'язку", subcategory: [
             "Засоби зв'язку",
             "Командно-штабні машини"]),
+        
+        
+        
+        
         
         SubcategoryModel(category: "Радіолокаційні станції", subcategory: [
             "РЛС розвідки та боротьби",
             "РЛС контрбатарейної боротьби"]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Системи протиповітряної оборони", subcategory: [
             "Повітряні сили",
             "Сухопутні війська"]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Системи берегової оборони", subcategory: ["Берегові ракетні комплекси"]),
+        
+        
+        
+        
         
         SubcategoryModel(category: "Інженерна техніка", subcategory: ["БРЕМ", "Інші"]),
         
-        SubcategoryModel(category: "Ракетні комплекси", subcategory: ["Зенітні комплекси та озброєння",
-                                                                      "Протикорабельні ракети"]),
+        
+        
+        
+        SubcategoryModel(category: "Автомобілі", subcategory: ["Мотовсюдиходи та безпілотники", "Легкові автомобілі", "Вантажні автомобілі", "Трофейна техніка"]),
+        
+        
+        
         
         SubcategoryModel(category: "Авіаційна техніка", subcategory: ["Авіаційне озброєння",
                                                                       "Безпілотні авіаційні комплекси",
                                                                       "Гелікоптери",
                                                                       "Військові літаки"]),
+        
+        
+        
+        
         
         SubcategoryModel(category: "Морське озброєння", subcategory: ["Корабельні системи озброєння",
                                                                       "Патрульні катери до 100 т",
@@ -76,19 +113,25 @@ struct SubcategoryData {
                                                                       "Десантні катери та судна",
                                                                       "Судна забезпечення"]),
         
+        
+        
+        
+        
         SubcategoryModel(category: "Оптичні прилади", subcategory: ["Прилади нічного бачення",
                                                                     "Оптико-електронні прилади"]),
+        
+        
+        
+        
         
         SubcategoryModel(category: "Системи захисту", subcategory: ["Засоби індивідуального захисту",
                                                                     "Системи захисту бронетехніки та об'єктів"])
         
     ]
     
-    
+    // MARK: - Get subcategories
     func getSubcategories(from category: String) -> [String]{
-        
         var resultSubcategories = [String]()
-        
         for subcategory in subcategories {
             if subcategory.category == category {
                 resultSubcategories = subcategory.subcategory
@@ -96,5 +139,4 @@ struct SubcategoryData {
         }
         return resultSubcategories
     }
-    
 }
