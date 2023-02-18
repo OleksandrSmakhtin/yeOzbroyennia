@@ -6,10 +6,8 @@
 	<string>UseAppPreferences</string>
 	<key>CustomBuildLocationType</key>
 	<string>RelativeToDerivedData</string>
-	<key>DerivedDataCustomLocation</key>
-	<string>/Users/oleksandrsmakhtin/Desktop/temp</string>
 	<key>DerivedDataLocationStyle</key>
-	<string>AbsolutePath</string>
+	<string>Default</string>
 	<key>ShowSharedSchemesAutomaticallyEnabled</key>
 	<true/>
 </dict>
