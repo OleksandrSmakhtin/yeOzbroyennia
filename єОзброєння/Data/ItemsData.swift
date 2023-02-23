@@ -110,7 +110,7 @@ struct ItemsData {
     
     
     //MARK: - Авіаційна техніка і озброєння
-    ItemsModel(subcategory: "БПЛА", items: ["Bayraktar TB2", "Microvisor SM7", "Фурія", "«Spectator»", "FlyEye", "RQ-11 Raven", "RQ-20 Puma", "ScanEagle", "Switchblade", "Warmate", "Phoenix Ghost", "", "", "", "", ""]),
+    ItemsModel(subcategory: "БПЛА", items: ["Bayraktar TB2", "Microvisor SM7", "Фурія", "Spectator", "FlyEye", "RQ-11 Raven", "RQ-20 Puma", "ScanEagle", "Switchblade", "Warmate", "Phoenix Ghost"]),
     ItemsModel(subcategory: "Авіація повітряних сил", items: ["МіГ-29", "Су-27", "Су-24", "Су-25", "Ан-30", "Ан-24", "Ан-26", "Іл-76", "Л-39 «Альбатрос»", "МіГ-29", "Су-27", "Мі-8"]),
     ItemsModel(subcategory: "Армійська авіація", items: ["Мі-2", "Мі-17", "Мі-24"]),
     ItemsModel(subcategory: "Морська авіація України", items: ["Ан-26", "Бе-12", "Sea King", "Мі-14", "Ка-27", "Ка-226"]),
